@@ -2,7 +2,7 @@ import java.awt.*;
 public class Boat {
     public static void drawBoat(Graphics g){
         g.setColor(new Color(160,82,45));
-        g.fillArc(200,350, 100,50,180,180);
+        g.fillArc(200,350, 100,40,180,180);
     }
 
     public static void drawMast(Graphics g){
